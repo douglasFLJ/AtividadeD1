@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sugestões</title>
+	<link type="text/css" rel="stylesheet" href="cssform1.css">
+	<style>
+		body {background: #02E3AA font-family: "courier"}
+	</style>
+</head>
+<body>
+	<table border="1" align="center">
+		<form action="http://somesite.com/prog/adduser" method="post">
+			<tr>
+				<td>
+					Opnião ou sugetão:
+				</td>		
+			</tr>
+			<tr><td>Nome: </td><td><input type="text" name="Nome"></td></tr>
+			<tr><td>E-mail: </td><td><input type="text" name="E-mail"></td></tr>
+			<tr><td>Senha: </td><td><input type="password" name="Senha"></td></tr>
+			<tr>
+				<td>Sexo: </td>
+				<td>
+					<input type="radio" name="sex" value="Male">Masculimo<br>
+					<input type="radio" name="sex" value="Female">Feminino<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Escreva aqui sua<br>
+					opnião ou sugestão:<br>
+				</td>
+				<td><textarea name="frase" rows="5" cols="40"></textarea></td>
+			</tr>
+			<tr>
+				<td>Idade:</td>
+				<td>
+					<select name="idade">
+						<option value="1">0-10</option>
+						<option value="2">0-20</option>
+						<option value="3">0-30</option>
+						<option value="4">0-40</option>
+						<option value="5">0-50</option>
+						<option value="6">0-60</option>
+						<option value="7">0-70</option>
+						<option value="8">Mais de 70</option>			
+					</select>				
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="Salvar">
+					<input type="reset" name="Limpar">
+				</td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
